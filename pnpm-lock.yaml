@@ -8,10 +8,43 @@ importers:
 
   .:
     dependencies:
+      '@barba/core':
+        specifier: ^2.9.7
+        version: 2.10.0
+      '@finsweet/attributes-cmsload':
+        specifier: ^1.12.0
+        version: 1.12.0
       '@finsweet/ts-utils':
-        specifier: ^0.40.0
-        version: 0.40.0
+        specifier: ^0.39.2
+        version: 0.39.2
+      '@splidejs/splide':
+        specifier: ^4.1.4
+        version: 4.1.4
+      '@splidejs/splide-extension-auto-scroll':
+        specifier: ^0.5.3
+        version: 0.5.3
+      '@studio-freight/lenis':
+        specifier: ^1.0.27
+        version: 1.0.42
+      gsap:
+        specifier: ^3.12.2
+        version: 3.12.5
+      split-lines:
+        specifier: ^3.0.0
+        version: 3.0.0
+      split-text:
+        specifier: ^1.0.0
+        version: 1.0.0
+      split-type:
+        specifier: ^0.3.4
+        version: 0.3.4
+      swiper:
+        specifier: ^11.1.1
+        version: 11.1.4
     devDependencies:
+      '@barba/prefetch':
+        specifier: ^2.1.10
+        version: 2.2.0
       '@changesets/changelog-git':
         specifier: ^0.2.0
         version: 0.2.0
@@ -20,7 +53,7 @@ importers:
         version: 2.27.1
       '@finsweet/eslint-config':
         specifier: ^2.0.7
-        version: 2.0.7(@typescript-eslint/eslint-plugin@7.1.1)(@typescript-eslint/parser@7.1.1)(eslint-config-prettier@9.1.0)(eslint-plugin-prettier@5.1.3)(eslint-plugin-simple-import-sort@12.0.0)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)
+        version: 2.0.7(@typescript-eslint/eslint-plugin@7.1.1(@typescript-eslint/parser@7.1.1(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3))(@typescript-eslint/parser@7.1.1(eslint@8.57.0)(typescript@5.3.3))(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint-plugin-prettier@5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5))(eslint-plugin-simple-import-sort@12.0.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)
       '@finsweet/tsconfig':
         specifier: ^1.3.4
         version: 1.3.4(typescript@5.3.3)
@@ -29,7 +62,7 @@ importers:
         version: 1.42.1
       '@typescript-eslint/eslint-plugin':
         specifier: ^7.1.1
-        version: 7.1.1(@typescript-eslint/parser@7.1.1)(eslint@8.57.0)(typescript@5.3.3)
+        version: 7.1.1(@typescript-eslint/parser@7.1.1(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3)
       '@typescript-eslint/parser':
         specifier: ^7.1.1
         version: 7.1.1(eslint@8.57.0)(typescript@5.3.3)
@@ -47,7 +80,7 @@ importers:
         version: 9.1.0(eslint@8.57.0)
       eslint-plugin-prettier:
         specifier: ^5.1.3
-        version: 5.1.3(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.2.5)
+        version: 5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5)
       eslint-plugin-simple-import-sort:
         specifier: ^12.0.0
         version: 12.0.0(eslint@8.57.0)
@@ -79,6 +112,12 @@ packages:
   '@babel/runtime@7.24.0':
     resolution: {integrity: sha512-Chk32uHMg6TnQdvw2e9IlqPpFX/6NLuK0Ys2PqLb7/gL5uFn9mXvK715FGLlOLQrcO4qIkNHkvPGktzzXexsFw==}
     engines: {node: '>=6.9.0'}
+
+  '@barba/core@2.10.0':
+    resolution: {integrity: sha512-VTNH94Xd4R11ZE6GDRFmRpPUR5Swx7DgJeZY4v7DupPAiCG99UcOIEWY7Ii9gLAvj1GNY0Iqa3oEjmzcmvJQ9g==}
+
+  '@barba/prefetch@2.2.0':
+    resolution: {integrity: sha512-ql56K043GNsKhs9jCzr7et3f1MZpOkpbUN9rtVpSXJqH96Zr+l6JuGrXUgB2TvebtrFycaOOaBZys0oZenTCcg==}
 
   '@changesets/apply-release-plan@7.0.0':
     resolution: {integrity: sha512-vfi69JR416qC9hWmFGSxj7N6wA5J222XNBmezSVATPWDVPIF7gkd4d8CpbEbXmRWbVrkoli3oerGS6dcL/BGsQ==}
@@ -288,6 +327,9 @@ packages:
     resolution: {integrity: sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
+  '@finsweet/attributes-cmsload@1.12.0':
+    resolution: {integrity: sha512-x0g5ZY+aZM9O76WB4GdHD6fYBa97g3kE1zuYQhPQaUbVdhomFcM7RXnNni3g25XTFlT/JWCx95QK0q05JSlY+A==}
+
   '@finsweet/eslint-config@2.0.7':
     resolution: {integrity: sha512-7twyMzYbt2RCKqkaApORAI2R8ZK3234t9lXD5uBsaWT9JL0avg6gHULGW8aTqxNrdZ0zlfFpCGcUnCiZUxH32w==}
     peerDependencies:
@@ -300,8 +342,8 @@ packages:
       prettier: ^3.0.0
       typescript: ^5.0.0
 
-  '@finsweet/ts-utils@0.40.0':
-    resolution: {integrity: sha512-Q24YkkvVxZOA7OGpgC7FsYakHBZWKSiZoV68F1HlhGcqqi5v+9mTHVxV8fSiPJawsTDrjwK44jhYk+GovPWT3w==}
+  '@finsweet/ts-utils@0.39.2':
+    resolution: {integrity: sha512-pnPQABz9v61E8x764Dcra12mVqdhp0iBzEz6f7B7IEt0ZSw8pXt4Yvmwflw+eyQMc2zQPWZFp5XFV/AEqmcqSA==}
 
   '@finsweet/tsconfig@1.3.4':
     resolution: {integrity: sha512-ZlTFcUDbklOrL8f+hiGeoRKMvqLOQHnUxFT8NYR43+BPb0Zed5xHt3OijxLDOmEQw8CwtHSW6oRPnJA/DJEByQ==}
@@ -345,6 +387,16 @@ packages:
     resolution: {integrity: sha512-Gq9rmS54mjBL/7/MvBaNOBwbfnh7beHvS6oS4srqXFcQHpQCV1+c8JXWE8VLPyRDhgS3H8x8A7hztqI9VnwrAQ==}
     engines: {node: '>=16'}
     hasBin: true
+
+  '@splidejs/splide-extension-auto-scroll@0.5.3':
+    resolution: {integrity: sha512-vPJ8Tn4uebnHa6scBcIypW154HTDenkazX9Nw8T1na44n7OtLoz40R4RoirteV7taPWW7w7ZZPCiEpi2ReYFAQ==}
+
+  '@splidejs/splide@4.1.4':
+    resolution: {integrity: sha512-5I30evTJcAJQXt6vJ26g2xEkG+l1nXcpEw4xpKh0/FWQ8ozmAeTbtniVtVmz2sH1Es3vgfC4SS8B2X4o5JMptA==}
+
+  '@studio-freight/lenis@1.0.42':
+    resolution: {integrity: sha512-HJAGf2DeM+BTvKzHv752z6Z7zy6bA643nZM7W88Ft9tnw2GsJSp6iJ+3cekjyMIWH+cloL2U9X82dKXgdU8kPg==}
+    deprecated: '''@studio-freight/lenis'' has been renamed to just ''lenis'', run ''npx @darkroom.engineering/codemods'' to update your dependecies accordingly.'
 
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
@@ -868,6 +920,9 @@ packages:
   graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
 
+  gsap@3.12.5:
+    resolution: {integrity: sha512-srBfnk4n+Oe/ZnMIOXt3gT605BX9x5+rh/prT2F1SsNJsU1XuMiP0E2aptW481OnonOGACZWBqseH5Z7csHxhQ==}
+
   hard-rejection@2.1.0:
     resolution: {integrity: sha512-VIZB+ibDhx7ObhAe7OVtoEbuP4h/MuOTHJ+J8h/eBXotJYl0fBgR72xDFCKgIh22OJZIOVNxBMWuhAr10r8HdA==}
     engines: {node: '>=6'}
@@ -995,6 +1050,9 @@ packages:
     resolution: {integrity: sha512-yvkRyxmFKEOQ4pNXCmJG5AEQNlXJS5LaONXo5/cLdTZdWvsZ1ioJEonLGAosKlMWE8lwUy/bJzMjcw8az73+Fg==}
     engines: {node: '>=0.10.0'}
 
+  is-promise@4.0.0:
+    resolution: {integrity: sha512-hvpoI6korhJMnej285dSg6nu1+e6uxs7zG3BYAm5byqDsgJNWwxzM6z6iZiAgQR4TJ30JmBTOwqZUw3WlyH3AQ==}
+
   is-regex@1.1.4:
     resolution: {integrity: sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==}
     engines: {node: '>= 0.4'}
@@ -1057,6 +1115,12 @@ packages:
 
   jsonfile@4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
+
+  just-debounce@1.1.0:
+    resolution: {integrity: sha512-qpcRocdkUmf+UTNBYx5w6dexX5J31AKK1OmPwH630a83DdVVUIngk55RSAiIGpQyoH0dlr872VHfPjnQnK1qDQ==}
+
+  just-throttle@4.2.0:
+    resolution: {integrity: sha512-/iAZv1953JcExpvsywaPKjSzfTiCLqeguUTE6+VmK15mOcwxBx7/FHrVvS4WEErMR03TRazH8kcBSHqMagYIYg==}
 
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
@@ -1224,6 +1288,9 @@ packages:
 
   path-parse@1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
+
+  path-to-regexp@6.2.2:
+    resolution: {integrity: sha512-GQX3SSMokngb36+whdpRXE+3f9V8UzyAorlYvOGx87ufGHehNTn5lCxrKtLyZ4Yl/wEKnNnr98ZzOwwDZV5ogw==}
 
   path-type@4.0.0:
     resolution: {integrity: sha512-gDKb8aZMDeD/tZWs9P6+q0J9Mwkdl6xMV8TjnGP3qJVJ06bdMgkbBlLU8IdfOsIsFz2BW1rNVT3XuNEl8zPAvw==}
@@ -1422,6 +1489,17 @@ packages:
   spdx-license-ids@3.0.17:
     resolution: {integrity: sha512-sh8PWc/ftMqAAdFiBu6Fy6JUOYjqDJBJvIhpfDMyHrr0Rbp5liZqd4TjtQ/RgfLjKFZb+LMx5hpml5qOWy0qvg==}
 
+  split-lines@3.0.0:
+    resolution: {integrity: sha512-d0TpRBL/VfKDXsk8JxPF7zgF5pCUDdBMSlEL36xBgVeaX448t+yGXcJaikUyzkoKOJ0l6KpMfygzJU9naIuivw==}
+    engines: {node: '>=12'}
+
+  split-text@1.0.0:
+    resolution: {integrity: sha512-uUKOFGpdt4/rrrBSmLugVbGmHaD7Ex4FcqIEXQRwlnxnDN+pL21Rx2lTgA3CSM8JE6EZPL4ZeEJp1ntzBsnc6Q==}
+    engines: {node: '>=0.10.0'}
+
+  split-type@0.3.4:
+    resolution: {integrity: sha512-otEk9vnD8qwfLsk3Lx0gz+qRkNIJCx0mlyL47ImP/DjMuV39d75Lpfwjn9fHteDRz0aoOblSzQjSNT9+Sswxcg==}
+
   sprintf-js@1.0.3:
     resolution: {integrity: sha512-D9cPgkvLlV3t3IzL0D0YLvGA9Ahk4PcvVwUbN0dSGr1aP0Nrt4AEnTUbuGvquEC0mA64Gqt1fzirlRs5ibXx8g==}
 
@@ -1469,6 +1547,10 @@ packages:
   supports-preserve-symlinks-flag@1.0.0:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
+
+  swiper@11.1.4:
+    resolution: {integrity: sha512-1n7kbYJB2dFEpUHRFszq7gys/ofIBrMNibwTiMvPHwneKND/t9kImnHt6CfGPScMHgI+dWMbGTycCKGMoOO1KA==}
+    engines: {node: '>= 4.7.0'}
 
   synckit@0.8.8:
     resolution: {integrity: sha512-HwOKAP7Wc5aRGYdKH+dw0PRRpbO841v2DENBtjnR5HFWoiNByAl7vrx3p0G/rCyYXQsrxqtX48TImFtPcIHSpQ==}
@@ -1651,6 +1733,13 @@ snapshots:
   '@babel/runtime@7.24.0':
     dependencies:
       regenerator-runtime: 0.14.1
+
+  '@barba/core@2.10.0':
+    dependencies:
+      is-promise: 4.0.0
+      path-to-regexp: 6.2.2
+
+  '@barba/prefetch@2.2.0': {}
 
   '@changesets/apply-release-plan@7.0.0':
     dependencies:
@@ -1892,18 +1981,23 @@ snapshots:
 
   '@eslint/js@8.57.0': {}
 
-  '@finsweet/eslint-config@2.0.7(@typescript-eslint/eslint-plugin@7.1.1)(@typescript-eslint/parser@7.1.1)(eslint-config-prettier@9.1.0)(eslint-plugin-prettier@5.1.3)(eslint-plugin-simple-import-sort@12.0.0)(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)':
+  '@finsweet/attributes-cmsload@1.12.0':
     dependencies:
-      '@typescript-eslint/eslint-plugin': 7.1.1(@typescript-eslint/parser@7.1.1)(eslint@8.57.0)(typescript@5.3.3)
+      just-debounce: 1.1.0
+      just-throttle: 4.2.0
+
+  '@finsweet/eslint-config@2.0.7(@typescript-eslint/eslint-plugin@7.1.1(@typescript-eslint/parser@7.1.1(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3))(@typescript-eslint/parser@7.1.1(eslint@8.57.0)(typescript@5.3.3))(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint-plugin-prettier@5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5))(eslint-plugin-simple-import-sort@12.0.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)':
+    dependencies:
+      '@typescript-eslint/eslint-plugin': 7.1.1(@typescript-eslint/parser@7.1.1(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 7.1.1(eslint@8.57.0)(typescript@5.3.3)
       eslint: 8.57.0
       eslint-config-prettier: 9.1.0(eslint@8.57.0)
-      eslint-plugin-prettier: 5.1.3(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.2.5)
+      eslint-plugin-prettier: 5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5)
       eslint-plugin-simple-import-sort: 12.0.0(eslint@8.57.0)
       prettier: 3.2.5
       typescript: 5.3.3
 
-  '@finsweet/ts-utils@0.40.0': {}
+  '@finsweet/ts-utils@0.39.2': {}
 
   '@finsweet/tsconfig@1.3.4(typescript@5.3.3)':
     dependencies:
@@ -1955,6 +2049,12 @@ snapshots:
     dependencies:
       playwright: 1.42.1
 
+  '@splidejs/splide-extension-auto-scroll@0.5.3': {}
+
+  '@splidejs/splide@4.1.4': {}
+
+  '@studio-freight/lenis@1.0.42': {}
+
   '@types/json-schema@7.0.15': {}
 
   '@types/minimist@1.2.5': {}
@@ -1965,7 +2065,7 @@ snapshots:
 
   '@types/semver@7.5.8': {}
 
-  '@typescript-eslint/eslint-plugin@7.1.1(@typescript-eslint/parser@7.1.1)(eslint@8.57.0)(typescript@5.3.3)':
+  '@typescript-eslint/eslint-plugin@7.1.1(@typescript-eslint/parser@7.1.1(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3)':
     dependencies:
       '@eslint-community/regexpp': 4.10.0
       '@typescript-eslint/parser': 7.1.1(eslint@8.57.0)(typescript@5.3.3)
@@ -1980,6 +2080,7 @@ snapshots:
       natural-compare: 1.4.0
       semver: 7.6.0
       ts-api-utils: 1.2.1(typescript@5.3.3)
+    optionalDependencies:
       typescript: 5.3.3
     transitivePeerDependencies:
       - supports-color
@@ -1992,6 +2093,7 @@ snapshots:
       '@typescript-eslint/visitor-keys': 7.1.1
       debug: 4.3.4
       eslint: 8.57.0
+    optionalDependencies:
       typescript: 5.3.3
     transitivePeerDependencies:
       - supports-color
@@ -2008,6 +2110,7 @@ snapshots:
       debug: 4.3.4
       eslint: 8.57.0
       ts-api-utils: 1.2.1(typescript@5.3.3)
+    optionalDependencies:
       typescript: 5.3.3
     transitivePeerDependencies:
       - supports-color
@@ -2024,6 +2127,7 @@ snapshots:
       minimatch: 9.0.3
       semver: 7.6.0
       ts-api-utils: 1.2.1(typescript@5.3.3)
+    optionalDependencies:
       typescript: 5.3.3
     transitivePeerDependencies:
       - supports-color
@@ -2376,13 +2480,14 @@ snapshots:
     dependencies:
       eslint: 8.57.0
 
-  eslint-plugin-prettier@5.1.3(eslint-config-prettier@9.1.0)(eslint@8.57.0)(prettier@3.2.5):
+  eslint-plugin-prettier@5.1.3(eslint-config-prettier@9.1.0(eslint@8.57.0))(eslint@8.57.0)(prettier@3.2.5):
     dependencies:
       eslint: 8.57.0
-      eslint-config-prettier: 9.1.0(eslint@8.57.0)
       prettier: 3.2.5
       prettier-linter-helpers: 1.0.0
       synckit: 0.8.8
+    optionalDependencies:
+      eslint-config-prettier: 9.1.0(eslint@8.57.0)
 
   eslint-plugin-simple-import-sort@12.0.0(eslint@8.57.0):
     dependencies:
@@ -2609,6 +2714,8 @@ snapshots:
 
   graphemer@1.4.0: {}
 
+  gsap@3.12.5: {}
+
   hard-rejection@2.1.0: {}
 
   has-bigints@1.0.2: {}
@@ -2711,6 +2818,8 @@ snapshots:
 
   is-plain-obj@1.1.0: {}
 
+  is-promise@4.0.0: {}
+
   is-regex@1.1.4:
     dependencies:
       call-bind: 1.0.7
@@ -2768,6 +2877,10 @@ snapshots:
   jsonfile@4.0.0:
     optionalDependencies:
       graceful-fs: 4.2.11
+
+  just-debounce@1.1.0: {}
+
+  just-throttle@4.2.0: {}
 
   keyv@4.5.4:
     dependencies:
@@ -2936,6 +3049,8 @@ snapshots:
   path-key@3.1.1: {}
 
   path-parse@1.0.7: {}
+
+  path-to-regexp@6.2.2: {}
 
   path-type@4.0.0: {}
 
@@ -3130,6 +3245,12 @@ snapshots:
 
   spdx-license-ids@3.0.17: {}
 
+  split-lines@3.0.0: {}
+
+  split-text@1.0.0: {}
+
+  split-type@0.3.4: {}
+
   sprintf-js@1.0.3: {}
 
   stream-transform@2.1.3:
@@ -3181,6 +3302,8 @@ snapshots:
       has-flag: 4.0.0
 
   supports-preserve-symlinks-flag@1.0.0: {}
+
+  swiper@11.1.4: {}
 
   synckit@0.8.8:
     dependencies:

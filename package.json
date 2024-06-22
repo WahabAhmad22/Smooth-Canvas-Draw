@@ -35,7 +35,8 @@
     "update": "pnpm update -i -L -r"
   },
   "devDependencies": {
-    "@changesets/changelog-git": "^0.2.0",
+    "@barba/prefetch": "^2.1.10",
+"@changesets/changelog-git": "^0.2.0",
     "@changesets/cli": "^2.27.1",
     "@finsweet/eslint-config": "^2.0.7",
     "@finsweet/tsconfig": "^1.3.4",
@@ -52,7 +53,17 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "@finsweet/ts-utils": "^0.40.0"
+    "@barba/core": "^2.9.7",
+    "@finsweet/attributes-cmsload": "^1.12.0",
+    "@finsweet/ts-utils": "^0.39.2",
+    "@splidejs/splide": "^4.1.4",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "@studio-freight/lenis": "^1.0.27",
+    "gsap": "^3.12.2",
+    "split-lines": "^3.0.0",
+    "split-text": "^1.0.0",
+    "split-type": "^0.3.4",
+    "swiper": "^11.1.1"
   },
   "engines": {
     "pnpm": ">=9"
